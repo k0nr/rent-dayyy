@@ -26,13 +26,26 @@ font-size:30px;
 body {
     background-color: black;
     color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
 }
+
     
     
 .outer {
     color: white;
     background-color: black;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    height: 99%;
     
+}
+
+.playlist {
+    line-height: 1;
+    text-align: justify;
     
 }
 
@@ -69,6 +82,22 @@ height:100%;
 }
 
 
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: cyan;
+}
 
 </style>
 
