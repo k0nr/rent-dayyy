@@ -29,6 +29,8 @@ body {
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-size: 28px;
+    cursor: url('images/cursor.cur'), default;
+
 }
 
     
