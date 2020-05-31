@@ -84,9 +84,11 @@ body {
     width: 99%;
     height: 12%;
     left: 1px;
-    font-size: 1.5vw;
   
 }
+    .bottom a:visited {
+        color: white;
+    }
 
 
 
@@ -101,15 +103,15 @@ body {
          text-align: right;
         }
         
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 601px) {
   div.bottom {
     font-size: 1.8vw;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600) {
   div.bottom {
-    font-size: 30px;
+    font-size: 8px;
   }
 } 
         
@@ -159,6 +161,8 @@ a:hover {
     text-decoration: underline;
     color: cyan;
 }
+
+
 
 </style>
 
