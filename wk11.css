@@ -49,8 +49,24 @@ body {
     line-height: 1;
     text-align: justify;
     font-size: 1.8vw;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: auto;
     
 }
+
+@media screen and (min-width: 801px) {
+  div.playlist {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.playlist {
+    font-size: 30px;
+  }
+} 
 
 .space {
     height: 100vh;
@@ -72,6 +88,8 @@ body {
   
 }
 
+
+
 	.bottomtext {
 		position: absolute;
 		bottom: 1%;
@@ -82,11 +100,26 @@ body {
         right: 1px;
          text-align: right;
         }
+        
+@media screen and (min-width: 801px) {
+  div.bottom {
+    font-size: 1.8vw;
+  }
+}
 
+@media screen and (max-width: 800px) {
+  div.bottom {
+    font-size: 30px;
+  }
+} 
+        
+        
+        
 /* video */
 
 .video {
     position: relative;
+    top: 1%;
     width: 55%;
 }
 
