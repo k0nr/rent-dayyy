@@ -13,7 +13,7 @@ font-size:30px;
 }
 
 @media only screen and (orientation:portrait){
-#wrapper { display:none; }
+.outer { display:none; }
 #warning-message { display:block; }
 
  }
@@ -41,27 +41,53 @@ body {
     width: 95%;
     position: absolute;
     left: 2.5%;
-    height: 99%;
+    height: 100%;
     
 }
 
 .playlist {
     line-height: 1;
     text-align: justify;
+    font-size: 1.8vw;
     
 }
 
-.bottomtext {
-    position: absolute;
-    bottom: 0px;
-    
+.space {
+    height: 100vh;
+    position: relative;
+    color: black;
 }
+
+
+
+.bottom {
+    position: fixed;
+    bottom: 1px;
+    background: url("images/transparent-fire-gif.gif");
+    background-repeat: repeat-x;
+    width: 99%;
+    height: 12%;
+    left: 1px;
+    font-size: 1.5vw;
+  
+}
+
+	.bottomtext {
+		position: absolute;
+		bottom: 1%;
+		}
+		
+		.linx {
+        position: absolute;
+        right: 1px;
+         text-align: right;
+        }
 
 /* video */
 
 .video {
     position: relative;
-    width: 40%;
+    width: 55%;
 }
 
 
